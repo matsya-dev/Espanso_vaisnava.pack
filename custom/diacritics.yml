@@ -1,0 +1,1987 @@
+# Espanso match file — Sanskrit / Vaisnava terms
+# Combined from titles, names, places, scripture titles, festivals,
+# devotional practice, Vedic terms, philosophy, bhakti/rasa,
+# theological compounds, yoga/technical Sanskrit, and avatara/cosmology.
+#
+# > = Unicode IAST
+# < = Balaram legacy encoding
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  
+- trigger: sri>
+  replace: śrī
+- trigger: sri<
+  replace: çré
+- trigger: Sri>
+  replace: Śrī
+- trigger: Sri<
+  replace: Çré
+- triggers:
+  - gosvami>
+  - Gosvami>
+  replace: Gosvāmī
+- triggers:
+  - gosvami<
+  - Gosvami<
+  replace: Gosvämé
+- triggers:
+  - thakura>
+  - Thakura>
+  replace: Ṭhākura
+- triggers:
+  - thakura<
+  - Thakura<
+  replace: Öhäkura
+- triggers:
+  - vaisnava>
+  - Vaisnava>
+  - vaishnava>
+  - Vaishnava>
+  replace: Vaiṣṇava
+- triggers:
+  - vaisnava<
+  - Vaisnava<
+  - vaishnava<
+  - Vaishnava<
+  replace: Vaiñëava
+- triggers:
+  - prabhupada>
+  - Prabhupada>
+  replace: Prabhupāda
+- triggers:
+  - prabhupada<
+  - Prabhupada<
+  replace: Prabhupäda
+- triggers:
+  - mahaprabhu>
+  - Mahaprabhu>
+  replace: Mahāprabhu
+- triggers:
+  - mahaprabhu<
+  - Mahaprabhu<
+  replace: Mahäprabhu
+- triggers:
+  - maharaja>
+  - Maharaja>
+  replace: Mahārāja
+- triggers:
+  - maharaja<
+  - Maharaja<
+  replace: Mahäräja
+- trigger: maharani>
+  replace: mahārāṇī
+- trigger: maharani<
+  replace: mahäräëé
+- trigger: Maharani>
+  replace: Mahārāṇī
+- trigger: Maharani<
+  replace: Mahäräëé
+- trigger: svami>
+  replace: svāmī
+- trigger: svami<
+  replace: svämé
+- trigger: Svami>
+  replace: Svāmī
+- trigger: Svami<
+  replace: Svämé
+- trigger: dasa>
+  replace: dāsa
+- trigger: dasa<
+  replace: däsa
+- trigger: dasi>
+  replace: dāsī
+- trigger: dasi<
+  replace: däsé
+- trigger: babaji>
+  replace: bābājī
+- trigger: babaji<
+  replace: bäbäjé
+- trigger: pandita>
+  replace: paṇḍita
+- trigger: pandita<
+  replace: paëòita
+- trigger: bhatta>
+  replace: bhaṭṭa
+- trigger: bhatta<
+  replace: bhaööa
+- trigger: bhattacarya>
+  replace: bhaṭṭācārya
+- trigger: bhattacarya<
+  replace: bhaööäcärya
+- trigger: kaviraja>
+  replace: kavirāja
+- trigger: kaviraja<
+  replace: kaviräja
+- trigger: avatara>
+  replace: avatāra
+- trigger: avatara<
+  replace: avatära
+- triggers:
+  - krsna>
+  - Krsna>
+  - krishna>
+  - Krishna>
+  replace: Kṛṣṇa
+- triggers:
+  - krsna<
+  - Krsna<
+  - krishna<
+  - Krishna<
+  replace: Kåñëa
+- triggers:
+  - radha>
+  - Radha>
+  replace: Rādhā
+- triggers:
+  - radha<
+  - Radha<
+  replace: Rädhä
+- triggers:
+  - radharani>
+  - Radharani>
+  replace: Rādhārāṇī
+- triggers:
+  - radharani<
+  - Radharani<
+  replace: Rädhäräëé
+- triggers:
+  - rama>
+  - Rama>
+  replace: Rāma
+- triggers:
+  - rama<
+  - Rama<
+  replace: Räma
+- triggers:
+  - ramacandra>
+  - Ramacandra>
+  replace: Rāmacandra
+- triggers:
+  - ramacandra<
+  - Ramacandra<
+  replace: Rämacandra
+- triggers:
+  - visnu>
+  - Visnu>
+  - vishnu>
+  - Vishnu>
+  replace: Viṣṇu
+- triggers:
+  - visnu<
+  - Visnu<
+  - vishnu<
+  - Vishnu<
+  replace: Viñëu
+- triggers:
+  - narayana>
+  - Narayana>
+  replace: Nārāyaṇa
+- triggers:
+  - narayana<
+  - Narayana<
+  replace: Näräyaëa
+- triggers:
+  - balarama>
+  - Balarama>
+  replace: Balarāma
+- triggers:
+  - balarama<
+  - Balarama<
+  replace: Balaräma
+- triggers:
+  - gopala>
+  - Gopala>
+  replace: Gopāla
+- triggers:
+  - gopala<
+  - Gopala<
+  replace: Gopäla
+- triggers:
+  - damodara>
+  - Damodara>
+  replace: Dāmodara
+- triggers:
+  - damodara<
+  - Damodara<
+  replace: Dämodara
+- triggers:
+  - madhava>
+  - Madhava>
+  replace: Mādhava
+- triggers:
+  - madhava<
+  - Madhava<
+  replace: Mädhava
+- triggers:
+  - kesava>
+  - Kesava>
+  replace: Keśava
+- triggers:
+  - kesava<
+  - Kesava<
+  replace: Keçava
+- triggers:
+  - syamasundara>
+  - Syamasundara>
+  replace: Śyāmasundara
+- triggers:
+  - syamasundara<
+  - Syamasundara<
+  replace: Çyämasundara
+- triggers:
+  - gopinatha>
+  - Gopinatha>
+  replace: Gopīnātha
+- triggers:
+  - gopinatha<
+  - Gopinatha<
+  replace: Gopénätha
+- triggers:
+  - vasudeva>
+  - Vasudeva>
+  replace: Vāsudeva
+- triggers:
+  - vasudeva<
+  - Vasudeva<
+  replace: Väsudeva
+- triggers:
+  - sankarsana>
+  - Sankarsana>
+  replace: Saṅkarṣaṇa
+- triggers:
+  - sankarsana<
+  - Sankarsana<
+  replace: Saìkarñaëa
+- triggers:
+  - hrsikesa>
+  - Hrsikesa>
+  replace: Hṛṣīkeśa
+- triggers:
+  - hrsikesa<
+  - Hrsikesa<
+  replace: Håñékeça
+- triggers:
+  - madhusudana>
+  - Madhusudana>
+  replace: Madhusūdana
+- triggers:
+  - madhusudana<
+  - Madhusudana<
+  replace: Madhusüdana
+- triggers:
+  - janardana>
+  - Janardana>
+  replace: Janārdana
+- triggers:
+  - janardana<
+  - Janardana<
+  replace: Janärdana
+- triggers:
+  - padmanabha>
+  - Padmanabha>
+  replace: Padmanābha
+- triggers:
+  - padmanabha<
+  - Padmanabha<
+  replace: Padmanäbha
+- triggers:
+  - nrsimha>
+  - Nrsimha>
+  replace: Nṛsiṁha
+- triggers:
+  - nrsimha<
+  - Nrsimha<
+  replace: Nåsiàha
+- triggers:
+  - vamanadeva>
+  - Vamanadeva>
+  replace: Vāmanadeva
+- triggers:
+  - vamanadeva<
+  - Vamanadeva<
+  replace: Vämanadeva
+- triggers:
+  - varahadeva>
+  - Varahadeva>
+  replace: Varāhadeva
+- triggers:
+  - varahadeva<
+  - Varahadeva<
+  replace: Varähadeva
+- triggers:
+  - kurma>
+  - Kurma>
+  replace: Kūrma
+- triggers:
+  - kurma<
+  - Kurma<
+  replace: Kürma
+- triggers:
+  - parasurama>
+  - Parasurama>
+  replace: Paraśurāma
+- triggers:
+  - parasurama<
+  - Parasurama<
+  replace: Paraçuräma
+- triggers:
+  - siva>
+  - Siva>
+  - shiva>
+  - Shiva>
+  replace: Śiva
+- triggers:
+  - siva<
+  - Siva<
+  - shiva<
+  - Shiva<
+  replace: Çiva
+- triggers:
+  - laksmi>
+  - Laksmi>
+  replace: Lakṣmī
+- triggers:
+  - laksmi<
+  - Laksmi<
+  replace: Lakñmé
+- triggers:
+  - sarasvati>
+  - Sarasvati>
+  replace: Sarasvatī
+- triggers:
+  - sarasvati<
+  - Sarasvati<
+  replace: Sarasvaté
+- triggers:
+  - garuda>
+  - Garuda>
+  replace: Garuḍa
+- triggers:
+  - garuda<
+  - Garuda<
+  replace: Garuòa
+- triggers:
+  - vyasa>
+  - Vyasa>
+  replace: Vyāsa
+- triggers:
+  - vyasa<
+  - Vyasa<
+  replace: Vyäsa
+- triggers:
+  - narada>
+  - Narada>
+  replace: Nārada
+- triggers:
+  - narada<
+  - Narada<
+  replace: Närada
+- triggers:
+  - sukadeva>
+  - Sukadeva>
+  replace: Śukadeva
+- triggers:
+  - sukadeva<
+  - Sukadeva<
+  replace: Çukadeva
+- triggers:
+  - pariksit>
+  - Pariksit>
+  replace: Parīkṣit
+- triggers:
+  - pariksit<
+  - Pariksit<
+  replace: Parékñit
+- triggers:
+  - prahlada>
+  - Prahlada>
+  replace: Prahlāda
+- triggers:
+  - prahlada<
+  - Prahlada<
+  replace: Prahläda
+- triggers:
+  - ambarisa>
+  - Ambarisa>
+  replace: Ambarīṣa
+- triggers:
+  - ambarisa<
+  - Ambarisa<
+  replace: Ambaréña
+- triggers:
+  - ajamila>
+  - Ajamila>
+  replace: Ajāmila
+- triggers:
+  - ajamila<
+  - Ajamila<
+  replace: Ajämila
+- triggers:
+  - yudhisthira>
+  - Yudhisthira>
+  replace: Yudhiṣṭhira
+- triggers:
+  - yudhisthira<
+  - Yudhisthira<
+  replace: Yudhiñöhira
+- triggers:
+  - bhima>
+  - Bhima>
+  replace: Bhīma
+- triggers:
+  - bhima<
+  - Bhima<
+  replace: Bhéma
+- triggers:
+  - bhisma>
+  - Bhisma>
+  replace: Bhīṣma
+- triggers:
+  - bhisma<
+  - Bhisma<
+  replace: Bhéñma
+- triggers:
+  - dronacarya>
+  - Dronacarya>
+  replace: Droṇācārya
+- triggers:
+  - dronacarya<
+  - Dronacarya<
+  replace: Droëäcärya
+- triggers:
+  - asvatthama>
+  - Asvatthama>
+  replace: Aśvatthāmā
+- triggers:
+  - asvatthama<
+  - Asvatthama<
+  replace: Açvatthämä
+- triggers:
+  - kunti>
+  - Kunti>
+  replace: Kuntī
+- triggers:
+  - kunti<
+  - Kunti<
+  replace: Kunté
+- triggers:
+  - draupadi>
+  - Draupadi>
+  replace: Draupadī
+- triggers:
+  - draupadi<
+  - Draupadi<
+  replace: Draupadé
+- triggers:
+  - rukmini>
+  - Rukmini>
+  replace: Rukmiṇī
+- triggers:
+  - rukmini<
+  - Rukmini<
+  replace: Rukmiëé
+- triggers:
+  - satyabhama>
+  - Satyabhama>
+  replace: Satyabhāmā
+- triggers:
+  - satyabhama<
+  - Satyabhama<
+  replace: Satyabhämä
+- triggers:
+  - devaki>
+  - Devaki>
+  replace: Devakī
+- triggers:
+  - devaki<
+  - Devaki<
+  replace: Devaké
+- triggers:
+  - yasoda>
+  - Yasoda>
+  replace: Yaśodā
+- triggers:
+  - yasoda<
+  - Yasoda<
+  replace: Yaçodä
+- triggers:
+  - akrura>
+  - Akrura>
+  replace: Akrūra
+- triggers:
+  - akrura<
+  - Akrura<
+  replace: Akrüra
+- triggers:
+  - prthu>
+  - Prthu>
+  replace: Pṛthu
+- triggers:
+  - prthu<
+  - Prthu<
+  replace: Påthu
+- triggers:
+  - rsabhadeva>
+  - Rsabhadeva>
+  replace: Ṛṣabhadeva
+- triggers:
+  - rsabhadeva<
+  - Rsabhadeva<
+  replace: Åñabhadeva
+- triggers:
+  - hiranyakasipu>
+  - Hiranyakasipu>
+  replace: Hiraṇyakaśipu
+- triggers:
+  - hiranyakasipu<
+  - Hiranyakasipu<
+  replace: Hiraëyakaçipu
+- triggers:
+  - hiranyaksa>
+  - Hiranyaksa>
+  replace: Hiraṇyākṣa
+- triggers:
+  - hiranyaksa<
+  - Hiranyaksa<
+  replace: Hiraëyäkña
+- triggers:
+  - vrtrasura>
+  - Vrtrasura>
+  replace: Vṛtrāsura
+- triggers:
+  - vrtrasura<
+  - Vrtrasura<
+  replace: Våträsura
+- triggers:
+  - nityananda>
+  - Nityananda>
+  replace: Nityānanda
+- triggers:
+  - nityananda<
+  - Nityananda<
+  replace: Nityänanda
+- triggers:
+  - nitai>
+  - Nitai>
+  replace: Nitāi
+- triggers:
+  - nitai<
+  - Nitai<
+  replace: Nitäi
+- triggers:
+  - gauranga>
+  - Gauranga>
+  replace: Gaurāṅga
+- triggers:
+  - gauranga<
+  - Gauranga<
+  replace: Gauräìga
+- triggers:
+  - gadadhara>
+  - Gadadhara>
+  replace: Gadādhara
+- triggers:
+  - gadadhara<
+  - Gadadhara<
+  replace: Gadädhara
+- triggers:
+  - saci>
+  - Saci>
+  replace: Śacī
+- triggers:
+  - saci<
+  - Saci<
+  replace: Çacé
+- triggers:
+  - jagannatha>
+  - Jagannatha>
+  replace: Jagannātha
+- triggers:
+  - jagannatha<
+  - Jagannatha<
+  replace: Jagannätha
+- triggers:
+  - rupa>
+  - Rupa>
+  replace: Rūpa
+- triggers:
+  - rupa<
+  - Rupa<
+  replace: Rüpa
+- triggers:
+  - sanatana>
+  - Sanatana>
+  replace: Sanātana
+- triggers:
+  - sanatana<
+  - Sanatana<
+  replace: Sanätana
+- triggers:
+  - raghunatha>
+  - Raghunatha>
+  replace: Raghunātha
+- triggers:
+  - raghunatha<
+  - Raghunatha<
+  replace: Raghunätha
+- triggers:
+  - jiva>
+  - Jiva>
+  replace: Jīva
+- triggers:
+  - jiva<
+  - Jiva<
+  replace: Jéva
+- triggers:
+  - madhvacarya>
+  - Madhvacarya>
+  replace: Madhvācārya
+- triggers:
+  - madhvacarya<
+  - Madhvacarya<
+  replace: Madhväcärya
+- triggers:
+  - ramanujacarya>
+  - Ramanujacarya>
+  replace: Rāmānujācārya
+- triggers:
+  - ramanujacarya<
+  - Ramanujacarya<
+  replace: Rämänujäcärya
+- triggers:
+  - sankaracarya>
+  - Sankaracarya>
+  replace: Śaṅkarācārya
+- triggers:
+  - sankaracarya<
+  - Sankaracarya<
+  replace: Çaìkaräcärya
+- triggers:
+  - rupa-gosvami>
+  - Rupa-gosvami>
+  replace: Rūpa Gosvāmī
+- triggers:
+  - rupa-gosvami<
+  - Rupa-gosvami<
+  replace: Rüpa Gosvämé
+- triggers:
+  - sanatana-gosvami>
+  - Sanatana-gosvami>
+  replace: Sanātana Gosvāmī
+- triggers:
+  - sanatana-gosvami<
+  - Sanatana-gosvami<
+  replace: Sanätana Gosvämé
+- triggers:
+  - jiva-gosvami>
+  - Jiva-gosvami>
+  replace: Jīva Gosvāmī
+- triggers:
+  - jiva-gosvami<
+  - Jiva-gosvami<
+  replace: Jéva Gosvämé
+- triggers:
+  - raghunatha-dasa-gosvami>
+  - Raghunatha-dasa-gosvami>
+  replace: Raghunātha dāsa Gosvāmī
+- triggers:
+  - raghunatha-dasa-gosvami<
+  - Raghunatha-dasa-gosvami<
+  replace: Raghunätha däsa Gosvämé
+- triggers:
+  - gopala-bhatta-gosvami>
+  - Gopala-bhatta-gosvami>
+  replace: Gopāla Bhaṭṭa Gosvāmī
+- triggers:
+  - gopala-bhatta-gosvami<
+  - Gopala-bhatta-gosvami<
+  replace: Gopäla Bhaööa Gosvämé
+- triggers:
+  - krsnadasa-kaviraja-gosvami>
+  - Krsnadasa-kaviraja-gosvami>
+  replace: Kṛṣṇadāsa Kavirāja Gosvāmī
+- triggers:
+  - krsnadasa-kaviraja-gosvami<
+  - Krsnadasa-kaviraja-gosvami<
+  replace: Kåñëadäsa Kaviräja Gosvämé
+- triggers:
+  - narottama-dasa-thakura>
+  - Narottama-dasa-thakura>
+  replace: Narottama dāsa Ṭhākura
+- triggers:
+  - narottama-dasa-thakura<
+  - Narottama-dasa-thakura<
+  replace: Narottama däsa Öhäkura
+- triggers:
+  - srinivasa-acarya>
+  - Srinivasa-acarya>
+  replace: Śrīnivāsa Ācārya
+- triggers:
+  - srinivasa-acarya<
+  - Srinivasa-acarya<
+  replace: Çréniväsa Äcärya
+- triggers:
+  - syamananda>
+  - Syamananda>
+  replace: Śyāmānanda
+- triggers:
+  - syamananda<
+  - Syamananda<
+  replace: Çyämänanda
+- triggers:
+  - visvanatha-cakravarti-thakura>
+  - Visvanatha-cakravarti-thakura>
+  replace: Viśvanātha Cakravartī Ṭhākura
+- triggers:
+  - visvanatha-cakravarti-thakura<
+  - Visvanatha-cakravarti-thakura<
+  replace: Viçvanätha Cakravarté Öhäkura
+- triggers:
+  - baladeva-vidyabhusana>
+  - Baladeva-vidyabhusana>
+  replace: Baladeva Vidyābhūṣaṇa
+- triggers:
+  - baladeva-vidyabhusana<
+  - Baladeva-vidyabhusana<
+  replace: Baladeva Vidyäbhüñaëa
+- triggers:
+  - bhaktivinoda-thakura>
+  - Bhaktivinoda-thakura>
+  replace: Bhaktivinoda Ṭhākura
+- triggers:
+  - bhaktivinoda-thakura<
+  - Bhaktivinoda-thakura<
+  replace: Bhaktivinoda Öhäkura
+- triggers:
+  - gaurakisora-dasa-babaji>
+  - Gaurakisora-dasa-babaji>
+  replace: Gaurakiśora dāsa Bābājī
+- triggers:
+  - gaurakisora-dasa-babaji<
+  - Gaurakisora-dasa-babaji<
+  replace: Gaurakiçora däsa Bäbäjé
+- triggers:
+  - bhaktisiddhanta-sarasvati-thakura>
+  - Bhaktisiddhanta-sarasvati-thakura>
+  replace: Bhaktisiddhānta Sarasvatī Ṭhākura
+- triggers:
+  - bhaktisiddhanta-sarasvati-thakura<
+  - Bhaktisiddhanta-sarasvati-thakura<
+  replace: Bhaktisiddhänta Sarasvaté Öhäkura
+- triggers:
+  - madhavendra-puri>
+  - Madhavendra-puri>
+  replace: Mādhavendra Purī
+- triggers:
+  - madhavendra-puri<
+  - Madhavendra-puri<
+  replace: Mädhavendra Puré
+- triggers:
+  - isvara-puri>
+  - Isvara-puri>
+  replace: Īśvara Purī
+- triggers:
+  - isvara-puri<
+  - Isvara-puri<
+  replace: Éçvara Puré
+- triggers:
+  - advaita-acarya>
+  - Advaita-acarya>
+  replace: Advaita Ācārya
+- triggers:
+  - advaita-acarya<
+  - Advaita-acarya<
+  replace: Advaita Äcärya
+- triggers:
+  - srivasa-thakura>
+  - Srivasa-thakura>
+  replace: Śrīvāsa Ṭhākura
+- triggers:
+  - srivasa-thakura<
+  - Srivasa-thakura<
+  replace: Çréväsa Öhäkura
+- triggers:
+  - gadadhara-pandita>
+  - Gadadhara-pandita>
+  replace: Gadādhara Paṇḍita
+- triggers:
+  - gadadhara-pandita<
+  - Gadadhara-pandita<
+  replace: Gadädhara Paëòita
+- triggers:
+  - haridasa-thakura>
+  - Haridasa-thakura>
+  replace: Haridāsa Ṭhākura
+- triggers:
+  - haridasa-thakura<
+  - Haridasa-thakura<
+  replace: Haridäsa Öhäkura
+- triggers:
+  - svarupa-damodara>
+  - Svarupa-damodara>
+  replace: Svarūpa Dāmodara
+- triggers:
+  - svarupa-damodara<
+  - Svarupa-damodara<
+  replace: Svarüpa Dämodara
+- triggers:
+  - ramananda-raya>
+  - Ramananda-raya>
+  replace: Rāmānanda Rāya
+- triggers:
+  - ramananda-raya<
+  - Ramananda-raya<
+  replace: Rämänanda Räya
+- triggers:
+  - vrndavana>
+  - Vrndavana>
+  - vrindavana>
+  - Vrindavana>
+  replace: Vṛndāvana
+- triggers:
+  - vrndavana<
+  - Vrndavana<
+  - vrindavana<
+  - Vrindavana<
+  replace: Våndävana
+- triggers:
+  - mayapura>
+  - Mayapura>
+  replace: Māyāpura
+- triggers:
+  - mayapura<
+  - Mayapura<
+  replace: Mäyäpura
+- triggers:
+  - navadvipa>
+  - Navadvipa>
+  replace: Navadvīpa
+- triggers:
+  - navadvipa<
+  - Navadvipa<
+  replace: Navadvépa
+- triggers:
+  - mathura>
+  - Mathura>
+  replace: Mathurā
+- triggers:
+  - mathura<
+  - Mathura<
+  replace: Mathurä
+- triggers:
+  - dvaraka>
+  - Dvaraka>
+  replace: Dvārakā
+- triggers:
+  - dvaraka<
+  - Dvaraka<
+  replace: Dvärakä
+- triggers:
+  - vaikuntha>
+  - Vaikuntha>
+  replace: Vaikuṇṭha
+- triggers:
+  - vaikuntha<
+  - Vaikuntha<
+  replace: Vaikuëöha
+- triggers:
+  - goloka-vrndavana>
+  - Goloka-vrndavana>
+  replace: Goloka Vṛndāvana
+- triggers:
+  - goloka-vrndavana<
+  - Goloka-vrndavana<
+  replace: Goloka Våndävana
+- triggers:
+  - radha-kunda>
+  - Radha-kunda>
+  replace: Rādhā-kuṇḍa
+- triggers:
+  - radha-kunda<
+  - Radha-kunda<
+  replace: Rädhä-kuëòa
+- triggers:
+  - syama-kunda>
+  - Syama-kunda>
+  replace: Śyāma-kuṇḍa
+- triggers:
+  - syama-kunda<
+  - Syama-kunda<
+  replace: Çyäma-kuëòa
+- triggers:
+  - jagannatha-puri>
+  - Jagannatha-puri>
+  replace: Jagannātha Purī
+- triggers:
+  - jagannatha-puri<
+  - Jagannatha-puri<
+  replace: Jagannätha Puré
+- triggers:
+  - kuruksetra>
+  - Kuruksetra>
+  replace: Kurukṣetra
+- triggers:
+  - kuruksetra<
+  - Kuruksetra<
+  replace: Kurukñetra
+- triggers:
+  - prayaga>
+  - Prayaga>
+  replace: Prayāga
+- triggers:
+  - prayaga<
+  - Prayaga<
+  replace: Prayäga
+- triggers:
+  - varanasi>
+  - Varanasi>
+  replace: Vārāṇasī
+- triggers:
+  - varanasi<
+  - Varanasi<
+  replace: Väräëasé
+- triggers:
+  - badarikasrama>
+  - Badarikasrama>
+  replace: Badarikāśrama
+- triggers:
+  - badarikasrama<
+  - Badarikasrama<
+  replace: Badarikäçrama
+- triggers:
+  - svetadvipa>
+  - Svetadvipa>
+  replace: Śvetadvīpa
+- triggers:
+  - svetadvipa<
+  - Svetadvipa<
+  replace: Çvetadvépa
+- triggers:
+  - naimisaranya>
+  - Naimisaranya>
+  replace: Naimiṣāraṇya
+- triggers:
+  - naimisaranya<
+  - Naimisaranya<
+  replace: Naimiñäraëya
+- triggers:
+  - haridvara>
+  - Haridvara>
+  replace: Haridvāra
+- triggers:
+  - haridvara<
+  - Haridvara<
+  replace: Haridvära
+- triggers:
+  - ramesvara>
+  - Ramesvara>
+  replace: Rāmeśvara
+- triggers:
+  - ramesvara<
+  - Ramesvara<
+  replace: Rämeçvara
+- triggers:
+  - ayodhya>
+  - Ayodhya>
+  replace: Ayodhyā
+- triggers:
+  - ayodhya<
+  - Ayodhya<
+  replace: Ayodhyä
+- triggers:
+  - srirangam>
+  - Srirangam>
+  replace: Śrīraṅgam
+- triggers:
+  - srirangam<
+  - Srirangam<
+  replace: Çréraìgam
+- triggers:
+  - nilacala>
+  - Nilacala>
+  replace: Nīlācala
+- triggers:
+  - nilacala<
+  - Nilacala<
+  replace: Néläcala
+- triggers:
+  - gauda>
+  - Gauda>
+  replace: Gauḍa
+- triggers:
+  - gauda<
+  - Gauda<
+  replace: Gauòa
+- triggers:
+  - bharata-varsa>
+  - Bharata-varsa>
+  replace: Bhārata-varṣa
+- triggers:
+  - bharata-varsa<
+  - Bharata-varsa<
+  replace: Bhärata-varña
+- triggers:
+  - bhagavad-gita>
+  - Bhagavad-gita>
+  replace: Bhagavad-Gītā
+- triggers:
+  - bhagavad-gita<
+  - Bhagavad-gita<
+  replace: Bhagavad-Gétä
+- triggers:
+  - srimad-bhagavatam>
+  - Srimad-bhagavatam>
+  replace: Śrīmad-Bhāgavatam
+- triggers:
+  - srimad-bhagavatam<
+  - Srimad-bhagavatam<
+  replace: Çrémad-Bhägavatam
+- triggers:
+  - caitanya-caritamrta>
+  - Caitanya-caritamrta>
+  replace: Śrī Caitanya-caritāmṛta
+- triggers:
+  - caitanya-caritamrta<
+  - Caitanya-caritamrta<
+  replace: Çré Caitanya-caritämåta
+- triggers:
+  - caitanya-bhagavata>
+  - Caitanya-bhagavata>
+  replace: Caitanya-bhāgavata
+- triggers:
+  - caitanya-bhagavata<
+  - Caitanya-bhagavata<
+  replace: Caitanya-bhägavata
+- triggers:
+  - hari-bhakti-vilasa>
+  - Hari-bhakti-vilasa>
+  replace: Hari-bhakti-vilāsa
+- triggers:
+  - hari-bhakti-vilasa<
+  - Hari-bhakti-vilasa<
+  replace: Hari-bhakti-viläsa
+- triggers:
+  - bhakti-rasamrta-sindhu>
+  - Bhakti-rasamrta-sindhu>
+  replace: Bhakti-rasāmṛta-sindhu
+- triggers:
+  - bhakti-rasamrta-sindhu<
+  - Bhakti-rasamrta-sindhu<
+  replace: Bhakti-rasämåta-sindhu
+- triggers:
+  - upadesamrta>
+  - Upadesamrta>
+  replace: Upadeśāmṛta
+- triggers:
+  - upadesamrta<
+  - Upadesamrta<
+  replace: Upadeçämåta
+- triggers:
+  - isopanisad>
+  - Isopanisad>
+  replace: Īśopaniṣad
+- triggers:
+  - isopanisad<
+  - Isopanisad<
+  replace: Éçopaniñad
+- triggers:
+  - brahma-samhita>
+  - Brahma-samhita>
+  replace: Brahma-saṁhitā
+- triggers:
+  - brahma-samhita<
+  - Brahma-samhita<
+  replace: Brahma-saàhitä
+- triggers:
+  - narada-bhakti-sutra>
+  - Narada-bhakti-sutra>
+  replace: Nārada-bhakti-sūtra
+- triggers:
+  - narada-bhakti-sutra<
+  - Narada-bhakti-sutra<
+  replace: Närada-bhakti-sütra
+- triggers:
+  - vedanta-sutra>
+  - Vedanta-sutra>
+  replace: Vedānta-sūtra
+- triggers:
+  - vedanta-sutra<
+  - Vedanta-sutra<
+  replace: Vedänta-sütra
+- triggers:
+  - mahabharata>
+  - Mahabharata>
+  replace: Mahābhārata
+- triggers:
+  - mahabharata<
+  - Mahabharata<
+  replace: Mahäbhärata
+- triggers:
+  - ramayana>
+  - Ramayana>
+  replace: Rāmāyaṇa
+- triggers:
+  - ramayana<
+  - Ramayana<
+  replace: Rämäyaëa
+- triggers:
+  - padma-purana>
+  - Padma-purana>
+  replace: Padma Purāṇa
+- triggers:
+  - padma-purana<
+  - Padma-purana<
+  replace: Padma Puräëa
+- triggers:
+  - visnu-purana>
+  - Visnu-purana>
+  replace: Viṣṇu Purāṇa
+- triggers:
+  - visnu-purana<
+  - Visnu-purana<
+  replace: Viñëu Puräëa
+- triggers:
+  - prema-bhakti-candrika>
+  - Prema-bhakti-candrika>
+  replace: Prema-bhakti-candrikā
+- triggers:
+  - prema-bhakti-candrika<
+  - Prema-bhakti-candrika<
+  replace: Prema-bhakti-candrikä
+- triggers:
+  - brhad-bhagavatamrta>
+  - Brhad-bhagavatamrta>
+  replace: Bṛhad-bhāgavatāmṛta
+- triggers:
+  - brhad-bhagavatamrta<
+  - Brhad-bhagavatamrta<
+  replace: Båhad-bhägavatämåta
+- triggers:
+  - ujjvala-nilamani>
+  - Ujjvala-nilamani>
+  replace: Ujjvala-nīlamaṇi
+- triggers:
+  - ujjvala-nilamani<
+  - Ujjvala-nilamani<
+  replace: Ujjvala-nélamaëi
+- triggers:
+  - ekadasi>
+  - Ekadasi>
+  replace: Ekādaśī
+- triggers:
+  - ekadasi<
+  - Ekadasi<
+  replace: Ekädaçé
+- triggers:
+  - dvadasi>
+  - Dvadasi>
+  replace: Dvādaśī
+- triggers:
+  - dvadasi<
+  - Dvadasi<
+  replace: Dvädaçé
+- triggers:
+  - janmastami>
+  - Janmastami>
+  replace: Janmāṣṭamī
+- triggers:
+  - janmastami<
+  - Janmastami<
+  replace: Janmäñöamé
+- triggers:
+  - radhastami>
+  - Radhastami>
+  replace: Rādhāṣṭamī
+- triggers:
+  - radhastami<
+  - Radhastami<
+  replace: Rädhäñöamé
+- triggers:
+  - gaura-purnima>
+  - Gaura-purnima>
+  replace: Gaura-pūrṇimā
+- triggers:
+  - gaura-purnima<
+  - Gaura-purnima<
+  replace: Gaura-pürëimä
+- triggers:
+  - kartika>
+  - Kartika>
+  replace: Kārttika
+- triggers:
+  - kartika<
+  - Kartika<
+  replace: Kärttika
+- triggers:
+  - ratha-yatra>
+  - Ratha-yatra>
+  replace: Ratha-yātrā
+- triggers:
+  - ratha-yatra<
+  - Ratha-yatra<
+  replace: Ratha-yäträ
+- triggers:
+  - vyasa-puja>
+  - Vyasa-puja>
+  replace: Vyāsa-pūjā
+- triggers:
+  - vyasa-puja<
+  - Vyasa-puja<
+  replace: Vyäsa-püjä
+- trigger: acarya>
+  replace: ācārya
+- trigger: acarya<
+  replace: äcärya
+- triggers:
+  - sastra>
+  - shastra>
+  replace: śāstra
+- triggers:
+  - sastra<
+  - shastra<
+  replace: çästra
+- trigger: sadhu>
+  replace: sādhu
+- trigger: sadhu<
+  replace: sädhu
+- trigger: sadhana>
+  replace: sādhana
+- trigger: sadhana<
+  replace: sädhana
+- trigger: sadhaka>
+  replace: sādhaka
+- trigger: sadhaka<
+  replace: sädhaka
+- trigger: sraddha>
+  replace: śraddhā
+- trigger: sraddha<
+  replace: çraddhä
+- triggers:
+  - diksa>
+  - diksha>
+  replace: dīkṣā
+- triggers:
+  - diksa<
+  - diksha<
+  replace: dékñä
+- triggers:
+  - siksa>
+  - shiksha>
+  replace: śikṣā
+- triggers:
+  - siksa<
+  - shiksha<
+  replace: çikñä
+- trigger: sisya>
+  replace: śiṣya
+- trigger: sisya<
+  replace: çiñya
+- trigger: nama>
+  replace: nāma
+- trigger: nama<
+  replace: näma
+- trigger: harinama>
+  replace: harināma
+- trigger: harinama<
+  replace: harinäma
+- trigger: maha-mantra>
+  replace: mahā-mantra
+- trigger: maha-mantra<
+  replace: mahä-mantra
+- trigger: kirtana>
+  replace: kīrtana
+- trigger: kirtana<
+  replace: kértana
+- trigger: sankirtana>
+  replace: saṅkīrtana
+- trigger: sankirtana<
+  replace: saìkértana
+- trigger: nama-sankirtana>
+  replace: nāma-saṅkīrtana
+- trigger: nama-sankirtana<
+  replace: näma-saìkértana
+- trigger: arati>
+  replace: ārati
+- trigger: arati<
+  replace: ärati
+- trigger: mangala-arati>
+  replace: maṅgala-ārati
+- trigger: mangala-arati<
+  replace: maìgala-ärati
+- trigger: gaura-arati>
+  replace: gaura-ārati
+- trigger: gaura-arati<
+  replace: gaura-ärati
+- trigger: puja>
+  replace: pūjā
+- trigger: puja<
+  replace: püjä
+- trigger: guru-puja>
+  replace: guru-pūjā
+- trigger: guru-puja<
+  replace: guru-püjä
+- trigger: prasada>
+  replace: prasāda
+- trigger: prasada<
+  replace: prasäda
+- trigger: maha-prasada>
+  replace: mahā-prasāda
+- trigger: maha-prasada<
+  replace: mahä-prasäda
+- trigger: caranamrta>
+  replace: caraṇāmṛta
+- trigger: caranamrta<
+  replace: caraëämåta
+- trigger: murti>
+  replace: mūrti
+- trigger: murti<
+  replace: mürti
+- trigger: arca-vigraha>
+  replace: arcā-vigraha
+- trigger: arca-vigraha<
+  replace: arcä-vigraha
+- trigger: salagrama>
+  replace: śālagrāma
+- trigger: salagrama<
+  replace: çälagräma
+- trigger: salagrama-sila>
+  replace: śālagrāma-śilā
+- trigger: salagrama-sila<
+  replace: çälagräma-çilä
+- trigger: darsana>
+  replace: darśana
+- trigger: darsana<
+  replace: darçana
+- trigger: parikrama>
+  replace: parikramā
+- trigger: parikrama<
+  replace: parikramä
+- trigger: tirtha>
+  replace: tīrtha
+- trigger: tirtha<
+  replace: tértha
+- trigger: dhama>
+  replace: dhāma
+- trigger: dhama<
+  replace: dhäma
+- trigger: lila>
+  replace: līlā
+- trigger: lila<
+  replace: lélä
+- trigger: yatra>
+  replace: yātrā
+- trigger: yatra<
+  replace: yäträ
+- trigger: gayatri>
+  replace: Gāyatrī
+- trigger: gayatri<
+  replace: Gäyatré
+- trigger: yajna>
+  replace: yajña
+- trigger: yajna<
+  replace: yajïa
+- trigger: yajnopavita>
+  replace: yajñopavīta
+- trigger: yajnopavita<
+  replace: yajïopavéta
+- trigger: upavita>
+  replace: upavīta
+- trigger: upavita<
+  replace: upavéta
+- trigger: sikha>
+  replace: śikhā
+- trigger: sikha<
+  replace: çikhä
+- trigger: dandavat>
+  replace: daṇḍavat
+- trigger: dandavat<
+  replace: daëòavat
+- trigger: pranama>
+  replace: praṇāma
+- trigger: pranama<
+  replace: praëäma
+- trigger: sandhya>
+  replace: sandhyā
+- trigger: sandhya<
+  replace: sandhyä
+- trigger: sandhya-vandana>
+  replace: sandhyā-vandana
+- trigger: sandhya-vandana<
+  replace: sandhyä-vandana
+- trigger: acamana>
+  replace: ācamana
+- trigger: acamana<
+  replace: äcamana
+- trigger: sauca>
+  replace: śauca
+- trigger: sauca<
+  replace: çauca
+- triggers:
+  - mrdanga>
+  - mridanga>
+  replace: mṛdaṅga
+- triggers:
+  - mrdanga<
+  - mridanga<
+  replace: mådaìga
+- trigger: karatala>
+  replace: karatāla
+- trigger: karatala<
+  replace: karatäla
+- trigger: brahmana>
+  replace: brāhmaṇa
+- trigger: brahmana<
+  replace: brähmaëa
+- triggers:
+  - ksatriya>
+  - kshatriya>
+  replace: kṣatriya
+- triggers:
+  - ksatriya<
+  - kshatriya<
+  replace: kñatriya
+- trigger: vaisya>
+  replace: vaiśya
+- trigger: vaisya<
+  replace: vaiçya
+- trigger: sudra>
+  replace: śūdra
+- trigger: sudra<
+  replace: çüdra
+- trigger: brahmacari>
+  replace: brahmacārī
+- trigger: brahmacari<
+  replace: brahmacäré
+- trigger: grhastha>
+  replace: gṛhastha
+- trigger: grhastha<
+  replace: gåhastha
+- trigger: vanaprastha>
+  replace: vānaprastha
+- trigger: vanaprastha<
+  replace: vänaprastha
+- trigger: sannyasi>
+  replace: sannyāsī
+- trigger: sannyasi<
+  replace: sannyäsé
+- trigger: sannyasa>
+  replace: sannyāsa
+- trigger: sannyasa<
+  replace: sannyäsa
+- trigger: asrama>
+  replace: āśrama
+- trigger: asrama<
+  replace: äçrama
+- trigger: varna>
+  replace: varṇa
+- trigger: varna<
+  replace: varëa
+- trigger: varnasrama>
+  replace: varṇāśrama
+- trigger: varnasrama<
+  replace: varëäçrama
+- trigger: varnasrama-dharma>
+  replace: varṇāśrama-dharma
+- trigger: varnasrama-dharma<
+  replace: varëäçrama-dharma
+- trigger: samskara>
+  replace: saṁskāra
+- trigger: samskara<
+  replace: saàskära
+- trigger: upanayana>
+  replace: upanayana
+- trigger: upanayana<
+  replace: upanayana
+- trigger: grhya-sutra>
+  replace: gṛhya-sūtra
+- trigger: grhya-sutra<
+  replace: gåhya-sütra
+- trigger: maya>
+  replace: māyā
+- trigger: maya<
+  replace: mäyä
+- trigger: samsara>
+  replace: saṁsāra
+- trigger: samsara<
+  replace: saàsära
+- trigger: jnana>
+  replace: jñāna
+- trigger: jnana<
+  replace: jïäna
+- trigger: ajnana>
+  replace: ajñāna
+- trigger: ajnana<
+  replace: ajïäna
+- trigger: vijnana>
+  replace: vijñāna
+- trigger: vijnana<
+  replace: vijïäna
+- trigger: isvara>
+  replace: īśvara
+- trigger: isvara<
+  replace: éçvara
+- trigger: atma>
+  replace: ātmā
+- trigger: atma<
+  replace: ätmä
+- trigger: sakti>
+  replace: śakti
+- trigger: sakti<
+  replace: çakti
+- trigger: svarupa>
+  replace: svarūpa
+- trigger: svarupa<
+  replace: svarüpa
+- trigger: bhava>
+  replace: bhāva
+- trigger: bhava<
+  replace: bhäva
+- trigger: mahabhava>
+  replace: mahābhāva
+- trigger: mahabhava<
+  replace: mahäbhäva
+- trigger: ananda>
+  replace: ānanda
+- trigger: ananda<
+  replace: änanda
+- trigger: purusa>
+  replace: puruṣa
+- trigger: purusa<
+  replace: puruña
+- trigger: prakrti>
+  replace: prakṛti
+- trigger: prakrti<
+  replace: prakåti
+- trigger: guna>
+  replace: guṇa
+- trigger: guna<
+  replace: guëa
+- trigger: suddha>
+  replace: śuddha
+- trigger: suddha<
+  replace: çuddha
+- trigger: suddha-bhakti>
+  replace: śuddha-bhakti
+- trigger: suddha-bhakti<
+  replace: çuddha-bhakti
+- trigger: raganuga>
+  replace: rāgānugā
+- trigger: raganuga<
+  replace: rägänugä
+- trigger: vaidhi>
+  replace: vaidhī
+- trigger: vaidhi<
+  replace: vaidhé
+- trigger: aparadha>
+  replace: aparādha
+- trigger: aparadha<
+  replace: aparädha
+- trigger: namaparadha>
+  replace: nāmāparādha
+- trigger: namaparadha<
+  replace: nämäparädha
+- trigger: vaisnava-aparadha>
+  replace: Vaiṣṇava-aparādha
+- trigger: vaisnava-aparadha<
+  replace: Vaiñëava-aparädha
+- trigger: parampara>
+  replace: paramparā
+- trigger: parampara<
+  replace: paramparä
+- trigger: sampradaya>
+  replace: sampradāya
+- trigger: sampradaya<
+  replace: sampradäya
+- trigger: siddhanta>
+  replace: siddhānta
+- trigger: siddhanta<
+  replace: siddhänta
+- trigger: vedanta>
+  replace: vedānta
+- trigger: vedanta<
+  replace: vedänta
+- trigger: bhagavata>
+  replace: bhāgavata
+- trigger: bhagavata<
+  replace: bhägavata
+- trigger: purana>
+  replace: purāṇa
+- trigger: purana<
+  replace: puräëa
+- trigger: upanisad>
+  replace: upaniṣad
+- trigger: upanisad<
+  replace: upaniñad
+- trigger: sruti>
+  replace: śruti
+- trigger: sruti<
+  replace: çruti
+- trigger: smrti>
+  replace: smṛti
+- trigger: smrti<
+  replace: småti
+- trigger: pancaratra>
+  replace: pāñcarātra
+- trigger: pancaratra<
+  replace: päïcarätra
+- trigger: moksa>
+  replace: mokṣa
+- trigger: moksa<
+  replace: mokña
+- trigger: aisvarya>
+  replace: aiśvarya
+- trigger: aisvarya<
+  replace: aiçvarya
+- trigger: vairagya>
+  replace: vairāgya
+- trigger: vairagya<
+  replace: vairägya
+- trigger: tyaga>
+  replace: tyāga
+- trigger: tyaga<
+  replace: tyäga
+- trigger: prayascitta>
+  replace: prāyaścitta
+- trigger: prayascitta<
+  replace: präyaçcitta
+- trigger: mahatma>
+  replace: mahātmā
+- trigger: mahatma<
+  replace: mahätmä
+- trigger: paramahamsa>
+  replace: paramahaṁsa
+- trigger: paramahamsa<
+  replace: paramahaàsa
+- triggers:
+  - rsi>
+  - rishi>
+  replace: ṛṣi
+- triggers:
+  - rsi<
+  - rishi<
+  replace: åñi
+- trigger: adhikari>
+  replace: adhikārī
+- trigger: adhikari<
+  replace: adhikäré
+- trigger: kanistha>
+  replace: kaniṣṭha
+- trigger: kanistha<
+  replace: kaniñöha
+- trigger: madhyama-adhikari>
+  replace: madhyama-adhikārī
+- trigger: madhyama-adhikari<
+  replace: madhyama-adhikäré
+- trigger: uttama-adhikari>
+  replace: uttama-adhikārī
+- trigger: uttama-adhikari<
+  replace: uttama-adhikäré
+- trigger: maha-bhagavata>
+  replace: mahā-bhāgavata
+- trigger: maha-bhagavata<
+  replace: mahä-bhägavata
+- trigger: sadhu-sanga>
+  replace: sādhu-saṅga
+- trigger: sadhu-sanga<
+  replace: sädhu-saìga
+- trigger: bhajana-kriya>
+  replace: bhajana-kriyā
+- trigger: bhajana-kriya<
+  replace: bhajana-kriyä
+- trigger: anartha-nivrtti>
+  replace: anartha-nivṛtti
+- trigger: anartha-nivrtti<
+  replace: anartha-nivåtti
+- trigger: nistha>
+  replace: niṣṭhā
+- trigger: nistha<
+  replace: niñöhä
+- trigger: asakti>
+  replace: āsakti
+- trigger: asakti<
+  replace: äsakti
+- trigger: sravana>
+  replace: śravaṇa
+- trigger: sravana<
+  replace: çravaëa
+- trigger: smarana>
+  replace: smaraṇa
+- trigger: smarana<
+  replace: smaraëa
+- trigger: pada-sevana>
+  replace: pāda-sevana
+- trigger: pada-sevana<
+  replace: päda-sevana
+- trigger: dasya>
+  replace: dāsya
+- trigger: dasya<
+  replace: däsya
+- trigger: atma-nivedana>
+  replace: ātma-nivedana
+- trigger: atma-nivedana<
+  replace: ätma-nivedana
+- trigger: navadha-bhakti>
+  replace: navadhā-bhakti
+- trigger: navadha-bhakti<
+  replace: navadhä-bhakti
+- trigger: katha>
+  replace: kathā
+- trigger: katha<
+  replace: kathä
+- trigger: krsna-katha>
+  replace: Kṛṣṇa-kathā
+- trigger: krsna-katha<
+  replace: Kåñëa-kathä
+- trigger: krsna-prema>
+  replace: Kṛṣṇa-prema
+- trigger: krsna-prema<
+  replace: Kåñëa-prema
+- trigger: suddha-nama>
+  replace: śuddha-nāma
+- trigger: suddha-nama<
+  replace: çuddha-näma
+- trigger: raga>
+  replace: rāga
+- trigger: raga<
+  replace: räga
+- trigger: raga-marga>
+  replace: rāga-mārga
+- trigger: raga-marga<
+  replace: räga-märga
+- trigger: vaidhi-bhakti>
+  replace: vaidhī-bhakti
+- trigger: vaidhi-bhakti<
+  replace: vaidhé-bhakti
+- trigger: bhava-bhakti>
+  replace: bhāva-bhakti
+- trigger: bhava-bhakti<
+  replace: bhäva-bhakti
+- trigger: bhakti-lata-bija>
+  replace: bhakti-latā-bīja
+- trigger: bhakti-lata-bija<
+  replace: bhakti-latä-béja
+- trigger: krpa>
+  replace: kṛpā
+- trigger: krpa<
+  replace: kåpä
+- trigger: karuna>
+  replace: karuṇā
+- trigger: karuna<
+  replace: karuëä
+- trigger: asraya>
+  replace: āśraya
+- trigger: asraya<
+  replace: äçraya
+- trigger: visaya>
+  replace: viṣaya
+- trigger: visaya<
+  replace: viñaya
+- trigger: ista-deva>
+  replace: iṣṭa-deva
+- trigger: ista-deva<
+  replace: iñöa-deva
+- trigger: gopi>
+  replace: gopī
+- trigger: gopi<
+  replace: gopé
+- trigger: sakhi>
+  replace: sakhī
+- trigger: sakhi<
+  replace: sakhé
+- trigger: manjari>
+  replace: mañjarī
+- trigger: manjari<
+  replace: maïjaré
+- trigger: parakiya>
+  replace: parakīya
+- trigger: parakiya<
+  replace: parakéya
+- trigger: svakiya>
+  replace: svakīya
+- trigger: svakiya<
+  replace: svakéya
+- trigger: rasa-lila>
+  replace: rāsa-līlā
+- trigger: rasa-lila<
+  replace: räsa-lélä
+- trigger: santa-rasa>
+  replace: śānta-rasa
+- trigger: santa-rasa<
+  replace: çänta-rasa
+- trigger: dasya-rasa>
+  replace: dāsya-rasa
+- trigger: dasya-rasa<
+  replace: däsya-rasa
+- trigger: vatsalya>
+  replace: vātsalya
+- trigger: vatsalya<
+  replace: vätsalya
+- trigger: madhurya>
+  replace: mādhurya
+- trigger: madhurya<
+  replace: mädhurya
+- trigger: sac-cid-ananda>
+  replace: sac-cid-ānanda
+- trigger: sac-cid-ananda<
+  replace: sac-cid-änanda
+- trigger: maha-maya>
+  replace: mahā-māyā
+- trigger: maha-maya<
+  replace: mahä-mäyä
+- trigger: yoga-maya>
+  replace: yoga-māyā
+- trigger: yoga-maya<
+  replace: yoga-mäyä
+- trigger: hladini-sakti>
+  replace: hlādinī-śakti
+- trigger: hladini-sakti<
+  replace: hlädiné-çakti
+- trigger: samvit-sakti>
+  replace: saṁvit-śakti
+- trigger: samvit-sakti<
+  replace: saàvit-çakti
+- trigger: sandhini-sakti>
+  replace: sandhinī-śakti
+- trigger: sandhini-sakti<
+  replace: sandhiné-çakti
+- trigger: svarupa-sakti>
+  replace: svarūpa-śakti
+- trigger: svarupa-sakti<
+  replace: svarüpa-çakti
+- trigger: antaranga-sakti>
+  replace: antaraṅga-śakti
+- trigger: antaranga-sakti<
+  replace: antaraìga-çakti
+- trigger: bahiranga-sakti>
+  replace: bahiraṅga-śakti
+- trigger: bahiranga-sakti<
+  replace: bahiraìga-çakti
+- trigger: tatastha-sakti>
+  replace: taṭastha-śakti
+- trigger: tatastha-sakti<
+  replace: taöastha-çakti
+- trigger: jiva-tattva>
+  replace: jīva-tattva
+- trigger: jiva-tattva<
+  replace: jéva-tattva
+- trigger: visnu-tattva>
+  replace: viṣṇu-tattva
+- trigger: visnu-tattva<
+  replace: viñëu-tattva
+- trigger: krsna-tattva>
+  replace: Kṛṣṇa-tattva
+- trigger: krsna-tattva<
+  replace: Kåñëa-tattva
+- trigger: acintya-bhedabheda-tattva>
+  replace: acintya-bhedābheda-tattva
+- trigger: acintya-bhedabheda-tattva<
+  replace: acintya-bhedäbheda-tattva
+- trigger: sankirtana-yajna>
+  replace: saṅkīrtana-yajña
+- trigger: sankirtana-yajna<
+  replace: saìkértana-yajïa
+- trigger: sanatana-dharma>
+  replace: sanātana-dharma
+- trigger: sanatana-dharma<
+  replace: sanätana-dharma
+- trigger: brahma-jijnasa>
+  replace: brahma-jijñāsā
+- trigger: brahma-jijnasa<
+  replace: brahma-jijïäsä
+- trigger: jijnasa>
+  replace: jijñāsā
+- trigger: jijnasa<
+  replace: jijïäsä
+- trigger: karma-kanda>
+  replace: karma-kāṇḍa
+- trigger: karma-kanda<
+  replace: karma-käëòa
+- trigger: jnana-kanda>
+  replace: jñāna-kāṇḍa
+- trigger: jnana-kanda<
+  replace: jïäna-käëòa
+- trigger: astanga-yoga>
+  replace: aṣṭāṅga-yoga
+- trigger: astanga-yoga<
+  replace: añöäìga-yoga
+- trigger: hatha-yoga>
+  replace: haṭha-yoga
+- trigger: hatha-yoga<
+  replace: haöha-yoga
+- trigger: dhyana>
+  replace: dhyāna
+- trigger: dhyana<
+  replace: dhyäna
+- trigger: dharana>
+  replace: dhāraṇā
+- trigger: dharana<
+  replace: dhäraëä
+- trigger: samadhi>
+  replace: samādhi
+- trigger: samadhi<
+  replace: samädhi
+- trigger: pratyahara>
+  replace: pratyāhāra
+- trigger: pratyahara<
+  replace: pratyähära
+- trigger: dasa-avatara>
+  replace: daśāvatāra
+- trigger: dasa-avatara<
+  replace: daçävatära
+- trigger: purusa-avatara>
+  replace: puruṣa-avatāra
+- trigger: purusa-avatara<
+  replace: puruña-avatära
+- trigger: guna-avatara>
+  replace: guṇa-avatāra
+- trigger: guna-avatara<
+  replace: guëa-avatära
+- trigger: saktyavesa-avatara>
+  replace: śaktyāveśa-avatāra
+- trigger: saktyavesa-avatara<
+  replace: çaktyäveça-avatära
+- trigger: amsa>
+  replace: aṁśa
+- trigger: amsa<
+  replace: aàça
+- trigger: svamsa>
+  replace: svāṁśa
+- trigger: svamsa<
+  replace: sväàça
+- trigger: vibhinnamsa>
+  replace: vibhinnāṁśa
+- trigger: vibhinnamsa<
+  replace: vibhinnäàça
+- trigger: avirbhava>
+  replace: āvirbhāva
+- trigger: avirbhava<
+  replace: ävirbhäva
+- trigger: tirobhava>
+  replace: tirobhāva
+- trigger: tirobhava<
+  replace: tirobhäva
+- triggers:
+  - karanodakasayi>
+  - Karanodakasayi>
+  replace: Kāraṇodakaśāyī
+- triggers:
+  - karanodakasayi<
+  - Karanodakasayi<
+  replace: Käraëodakaçäyé
+- triggers:
+  - garbhodakasayi>
+  - Garbhodakasayi>
+  replace: Garbhodakaśāyī
+- triggers:
+  - garbhodakasayi<
+  - Garbhodakasayi<
+  replace: Garbhodakaçäyé
+- triggers:
+  - ksirodakasayi>
+  - Ksirodakasayi>
+  replace: Kṣīrodakaśāyī
+- triggers:
+  - ksirodakasayi<
+  - Ksirodakasayi<
+  replace: Kñérodakaçäyé

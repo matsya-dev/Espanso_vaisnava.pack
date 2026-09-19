@@ -1,0 +1,552 @@
+# Śrī Īśopaniṣad — Espanso verse and translation triggers
+# Generated from the supplied EPUB.
+#
+# Suffixes:
+#   :  plain/no-diacritic text
+#   >  Unicode transliteration
+#   <  Balaram legacy encoding
+#
+# Translation triggers add T before the suffix.
+
+matches:
+
+
+  - trigger: "ISOINV:"
+    replace: |-
+      om purnam adah purnam idam purnat purnam udacyate
+      purnasya purnam adaya purnam evavasisyate
+
+  - trigger: "ISOINV>"
+    replace: |-
+      oṁ pūrṇam adaḥ pūrṇam idaṁ pūrṇāt pūrṇam udacyate
+      pūrṇasya pūrṇam ādāya pūrṇam evāvaśiṣyate
+
+  - trigger: "ISOINV<"
+    replace: |-
+      oà pürëam adaù pürëam idaà pürëät pürëam udacyate
+      pürëasya pürëam ädäya pürëam evävaçiñyate
+
+  - trigger: "ISOINVT:"
+    replace: |-
+      The Personality of Godhead is perfect and complete, and because He is completely perfect, all emanations from Him, such as this phenomenal world, are perfectly equipped as complete wholes. Whatever is produced of the Complete Whole is also complete in itself. Because He is the Complete Whole, even though so many complete units emanate from Him, He remains the complete balance.
+
+  - trigger: "ISOINVT>"
+    replace: |-
+      The Personality of Godhead is perfect and complete, and because He is completely perfect, all emanations from Him, such as this phenomenal world, are perfectly equipped as complete wholes. Whatever is produced of the Complete Whole is also complete in itself. Because He is the Complete Whole, even though so many complete units emanate from Him, He remains the complete balance.
+
+  - trigger: "ISOINVT<"
+    replace: |-
+      The Personality of Godhead is perfect and complete, and because He is completely perfect, all emanations from Him, such as this phenomenal world, are perfectly equipped as complete wholes. Whatever is produced of the Complete Whole is also complete in itself. Because He is the Complete Whole, even though so many complete units emanate from Him, He remains the complete balance.
+
+  - trigger: "ISO1:"
+    replace: |-
+      isavasyam idam sarvam yat kinca jagatyam jagat
+      tena tyaktena bhunjitha ma grdhah kasya svid dhanam
+
+  - trigger: "ISO1>"
+    replace: |-
+      īśāvāsyam idaḿ sarvaṁ yat kiñca jagatyāṁ jagat
+      tena tyaktena bhuñjīthā mā gṛdhaḥ kasya svid dhanam
+
+  - trigger: "ISO1<"
+    replace: |-
+      éçäväsyam idaà sarvaà yat kiïca jagatyäà jagat
+      tena tyaktena bhuïjéthä mä gådhaù kasya svid dhanam
+
+  - trigger: "ISO1T:"
+    replace: |-
+      Everything animate or inanimate that is within the universe is controlled and owned by the Lord. One should therefore accept only those things necessary for himself, which are set aside as his quota, and one should not accept other things, knowing well to whom they belong.
+
+  - trigger: "ISO1T>"
+    replace: |-
+      Everything animate or inanimate that is within the universe is controlled and owned by the Lord. One should therefore accept only those things necessary for himself, which are set aside as his quota, and one should not accept other things, knowing well to whom they belong.
+
+  - trigger: "ISO1T<"
+    replace: |-
+      Everything animate or inanimate that is within the universe is controlled and owned by the Lord. One should therefore accept only those things necessary for himself, which are set aside as his quota, and one should not accept other things, knowing well to whom they belong.
+
+  - trigger: "ISO2:"
+    replace: |-
+      kurvann eveha karmani jijivisec chatam samah
+      evam tvayi nanyatheto ’sti na karma lipyate nare
+
+  - trigger: "ISO2>"
+    replace: |-
+      kurvann eveha karmāṇi jijīviṣec chataḿ samāḥ
+      evaṁ tvayi nānyatheto ’sti na karma lipyate nare
+
+  - trigger: "ISO2<"
+    replace: |-
+      kurvann eveha karmäëi jijéviñec chataà samäù
+      evaà tvayi nänyatheto ’sti na karma lipyate nare
+
+  - trigger: "ISO2T:"
+    replace: |-
+      One may aspire to live for hundreds of years if he continuously goes on working in that way, for that sort of work will not bind him to the law of karma. There is no alternative to this way for man.
+
+  - trigger: "ISO2T>"
+    replace: |-
+      One may aspire to live for hundreds of years if he continuously goes on working in that way, for that sort of work will not bind him to the law of karma. There is no alternative to this way for man.
+
+  - trigger: "ISO2T<"
+    replace: |-
+      One may aspire to live for hundreds of years if he continuously goes on working in that way, for that sort of work will not bind him to the law of karma. There is no alternative to this way for man.
+
+  - trigger: "ISO3:"
+    replace: |-
+      asurya nama te loka andhena tamasavrtah
+      tams te pretyabhigacchanti ye ke catma-hano janah
+
+  - trigger: "ISO3>"
+    replace: |-
+      asuryā nāma te lokā andhena tamasāvṛtāḥ
+      tāḿs te pretyābhigacchanti ye ke cātma-hano janāḥ
+
+  - trigger: "ISO3<"
+    replace: |-
+      asuryä näma te lokä andhena tamasävåtäù
+      täàs te pretyäbhigacchanti ye ke cätma-hano janäù
+
+  - trigger: "ISO3T:"
+    replace: |-
+      The killer of the soul, whoever he may be, must enter into the planets known as the worlds of the faithless, full of darkness and ignorance.
+
+  - trigger: "ISO3T>"
+    replace: |-
+      The killer of the soul, whoever he may be, must enter into the planets known as the worlds of the faithless, full of darkness and ignorance.
+
+  - trigger: "ISO3T<"
+    replace: |-
+      The killer of the soul, whoever he may be, must enter into the planets known as the worlds of the faithless, full of darkness and ignorance.
+
+  - trigger: "ISO4:"
+    replace: |-
+      anejad ekam manaso javiyo
+      nainad deva apnuvan purvam arsat
+      tad dhavato ’nyan atyeti tisthat
+      tasminn apo matarisva dadhati
+
+  - trigger: "ISO4>"
+    replace: |-
+      anejad ekaṁ manaso javīyo
+      nainad devā āpnuvan pūrvam arṣat
+      tad dhāvato ’nyān atyeti tiṣṭhat
+      tasminn apo mātariśvā dadhāti
+
+  - trigger: "ISO4<"
+    replace: |-
+      anejad ekaà manaso javéyo
+      nainad devä äpnuvan pürvam arñat
+      tad dhävato ’nyän atyeti tiñöhat
+      tasminn apo mätariçvä dadhäti
+
+  - trigger: "ISO4T:"
+    replace: |-
+      Although fixed in His abode, the Personality of Godhead is swifter than the mind and can overcome all others running. The powerful demigods cannot approach Him. Although in one place, He controls those who supply the air and rain. He surpasses all in excellence.
+
+  - trigger: "ISO4T>"
+    replace: |-
+      Although fixed in His abode, the Personality of Godhead is swifter than the mind and can overcome all others running. The powerful demigods cannot approach Him. Although in one place, He controls those who supply the air and rain. He surpasses all in excellence.
+
+  - trigger: "ISO4T<"
+    replace: |-
+      Although fixed in His abode, the Personality of Godhead is swifter than the mind and can overcome all others running. The powerful demigods cannot approach Him. Although in one place, He controls those who supply the air and rain. He surpasses all in excellence.
+
+  - trigger: "ISO5:"
+    replace: |-
+      tad ejati tan naijati tad dure tad v antike
+      tad antar asya sarvasya tad u sarvasyasya bahyatah
+
+  - trigger: "ISO5>"
+    replace: |-
+      tad ejati tan naijati tad dūre tad v antike
+      tad antar asya sarvasya tad u sarvasyāsya bāhyataḥ
+
+  - trigger: "ISO5<"
+    replace: |-
+      tad ejati tan naijati tad düre tad v antike
+      tad antar asya sarvasya tad u sarvasyäsya bähyataù
+
+  - trigger: "ISO5T:"
+    replace: |-
+      The Supreme Lord walks and does not walk. He is far away, but He is very near as well. He is within everything, and yet He is outside of everything.
+
+  - trigger: "ISO5T>"
+    replace: |-
+      The Supreme Lord walks and does not walk. He is far away, but He is very near as well. He is within everything, and yet He is outside of everything.
+
+  - trigger: "ISO5T<"
+    replace: |-
+      The Supreme Lord walks and does not walk. He is far away, but He is very near as well. He is within everything, and yet He is outside of everything.
+
+  - trigger: "ISO6:"
+    replace: |-
+      yas tu sarvani bhutany atmany evanupasyati
+      sarva-bhutesu catmanam tato na vijugupsate
+
+  - trigger: "ISO6>"
+    replace: |-
+      yas tu sarvāṇi bhūtāny ātmany evānupaśyati
+      sarva-bhūteṣu cātmānaṁ tato na vijugupsate
+
+  - trigger: "ISO6<"
+    replace: |-
+      yas tu sarväëi bhütäny ätmany evänupaçyati
+      sarva-bhüteñu cätmänaà tato na vijugupsate
+
+  - trigger: "ISO6T:"
+    replace: |-
+      He who systematically sees everything in relation to the Supreme Lord, who sees all living entities as His parts and parcels, and who sees the Supreme Lord within everything never hates anything or any being.
+
+  - trigger: "ISO6T>"
+    replace: |-
+      He who systematically sees everything in relation to the Supreme Lord, who sees all living entities as His parts and parcels, and who sees the Supreme Lord within everything never hates anything or any being.
+
+  - trigger: "ISO6T<"
+    replace: |-
+      He who systematically sees everything in relation to the Supreme Lord, who sees all living entities as His parts and parcels, and who sees the Supreme Lord within everything never hates anything or any being.
+
+  - trigger: "ISO7:"
+    replace: |-
+      yasmin sarvani bhutany atmaivabhud vijanatah
+      tatra ko mohah kah soka ekatvam anupasyatah
+
+  - trigger: "ISO7>"
+    replace: |-
+      yasmin sarvāṇi bhūtāny ātmaivābhūd vijānataḥ
+      tatra ko mohaḥ kaḥ śoka ekatvam anupaśyataḥ
+
+  - trigger: "ISO7<"
+    replace: |-
+      yasmin sarväëi bhütäny ätmaiväbhüd vijänataù
+      tatra ko mohaù kaù çoka ekatvam anupaçyataù
+
+  - trigger: "ISO7T:"
+    replace: |-
+      One who always sees all living entities as spiritual sparks, in quality one with the Lord, becomes a true knower of things. What, then, can be illusion or anxiety for him?
+
+  - trigger: "ISO7T>"
+    replace: |-
+      One who always sees all living entities as spiritual sparks, in quality one with the Lord, becomes a true knower of things. What, then, can be illusion or anxiety for him?
+
+  - trigger: "ISO7T<"
+    replace: |-
+      One who always sees all living entities as spiritual sparks, in quality one with the Lord, becomes a true knower of things. What, then, can be illusion or anxiety for him?
+
+  - trigger: "ISO8:"
+    replace: |-
+      sa paryagac chukram akayam avranam
+      asnaviram suddham apapa-viddham
+      kavir manisi paribhuh svayambhur
+      yathatathyato ’rthan vyadadhac
+      chasvatibhyah samabhyah
+
+  - trigger: "ISO8>"
+    replace: |-
+      sa paryagāc chukram akāyam avraṇam
+      asnāviraḿ śuddham apāpa-viddham
+      kavir manīṣī paribhūḥ svayambhūr
+      yāthātathyato ’rthān vyadadhāc
+      chāśvatībhyaḥ samābhyaḥ
+
+  - trigger: "ISO8<"
+    replace: |-
+      sa paryagäc chukram akäyam avraëam
+      asnäviraà çuddham apäpa-viddham
+      kavir manéñé paribhüù svayambhür
+      yäthätathyato ’rthän vyadadhäc
+      chäçvatébhyaù samäbhyaù
+
+  - trigger: "ISO8T:"
+    replace: |-
+      Such a person must factually know the greatest of all, the Personality of Godhead, who is unembodied, omniscient, beyond reproach, without veins, pure and uncontaminated, the self-sufficient philosopher who has been fulfilling everyone’s desire since time immemorial.
+
+  - trigger: "ISO8T>"
+    replace: |-
+      Such a person must factually know the greatest of all, the Personality of Godhead, who is unembodied, omniscient, beyond reproach, without veins, pure and uncontaminated, the self-sufficient philosopher who has been fulfilling everyone’s desire since time immemorial.
+
+  - trigger: "ISO8T<"
+    replace: |-
+      Such a person must factually know the greatest of all, the Personality of Godhead, who is unembodied, omniscient, beyond reproach, without veins, pure and uncontaminated, the self-sufficient philosopher who has been fulfilling everyone’s desire since time immemorial.
+
+  - trigger: "ISO9:"
+    replace: |-
+      andham tamah pravisanti ye ’vidyam upasate
+      tato bhuya iva te tamo ya u vidyayam ratah
+
+  - trigger: "ISO9>"
+    replace: |-
+      andhaṁ tamaḥ praviśanti ye ’vidyām upāsate
+      tato bhūya iva te tamo ya u vidyāyāḿ ratāḥ
+
+  - trigger: "ISO9<"
+    replace: |-
+      andhaà tamaù praviçanti ye ’vidyäm upäsate
+      tato bhüya iva te tamo ya u vidyäyäà ratäù
+
+  - trigger: "ISO9T:"
+    replace: |-
+      Those who engage in the culture of nescient activities shall enter into the darkest region of ignorance. Worse still are those engaged in the culture of so-called knowledge.
+
+  - trigger: "ISO9T>"
+    replace: |-
+      Those who engage in the culture of nescient activities shall enter into the darkest region of ignorance. Worse still are those engaged in the culture of so-called knowledge.
+
+  - trigger: "ISO9T<"
+    replace: |-
+      Those who engage in the culture of nescient activities shall enter into the darkest region of ignorance. Worse still are those engaged in the culture of so-called knowledge.
+
+  - trigger: "ISO10:"
+    replace: |-
+      anyad evahur vidyaya- nyad ahur avidyaya
+      iti susruma dhiranam ye nas tad vicacaksire
+
+  - trigger: "ISO10>"
+    replace: |-
+      anyad evāhur vidyayā- nyad āhur avidyayā
+      iti śuśruma dhīrāṇāṁ ye nas tad vicacakṣire
+
+  - trigger: "ISO10<"
+    replace: |-
+      anyad evähur vidyayä- nyad ähur avidyayä
+      iti çuçruma dhéräëäà ye nas tad vicacakñire
+
+  - trigger: "ISO10T:"
+    replace: |-
+      The wise have explained that one result is derived from the culture of knowledge and that a different result is obtained from the culture of nescience.
+
+  - trigger: "ISO10T>"
+    replace: |-
+      The wise have explained that one result is derived from the culture of knowledge and that a different result is obtained from the culture of nescience.
+
+  - trigger: "ISO10T<"
+    replace: |-
+      The wise have explained that one result is derived from the culture of knowledge and that a different result is obtained from the culture of nescience.
+
+  - trigger: "ISO11:"
+    replace: |-
+      vidyam cavidyam ca yas tad vedobhayam saha
+      avidyaya mrtyum tirtva vidyayamrtam asnute
+
+  - trigger: "ISO11>"
+    replace: |-
+      vidyāṁ cāvidyāṁ ca yas tad vedobhayaḿ saha
+      avidyayā mṛtyuṁ tīrtvā vidyayāmṛtam aśnute
+
+  - trigger: "ISO11<"
+    replace: |-
+      vidyäà cävidyäà ca yas tad vedobhayaà saha
+      avidyayä måtyuà tértvä vidyayämåtam açnute
+
+  - trigger: "ISO11T:"
+    replace: |-
+      Only one who can learn the process of nescience and that of transcendental knowledge side by side can transcend the influence of repeated birth and death and enjoy the full blessings of immortality.
+
+  - trigger: "ISO11T>"
+    replace: |-
+      Only one who can learn the process of nescience and that of transcendental knowledge side by side can transcend the influence of repeated birth and death and enjoy the full blessings of immortality.
+
+  - trigger: "ISO11T<"
+    replace: |-
+      Only one who can learn the process of nescience and that of transcendental knowledge side by side can transcend the influence of repeated birth and death and enjoy the full blessings of immortality.
+
+  - trigger: "ISO12:"
+    replace: |-
+      andham tamah pravisanti ye ’sambhutim upasate
+      tato bhuya iva te tamo ya u sambhutyam ratah
+
+  - trigger: "ISO12>"
+    replace: |-
+      andhaṁ tamaḥ praviśanti ye ’sambhūtim upāsate
+      tato bhūya iva te tamo ya u sambhūtyāḿ ratāḥ
+
+  - trigger: "ISO12<"
+    replace: |-
+      andhaà tamaù praviçanti ye ’sambhütim upäsate
+      tato bhüya iva te tamo ya u sambhütyäà ratäù
+
+  - trigger: "ISO12T:"
+    replace: |-
+      Those who are engaged in the worship of demigods enter into the darkest region of ignorance, and still more so do the worshipers of the impersonal Absolute.
+
+  - trigger: "ISO12T>"
+    replace: |-
+      Those who are engaged in the worship of demigods enter into the darkest region of ignorance, and still more so do the worshipers of the impersonal Absolute.
+
+  - trigger: "ISO12T<"
+    replace: |-
+      Those who are engaged in the worship of demigods enter into the darkest region of ignorance, and still more so do the worshipers of the impersonal Absolute.
+
+  - trigger: "ISO13:"
+    replace: |-
+      anyad evahuh sambhavad anyad ahur asambhavat
+      iti susruma dhiranam ye nas tad vicacaksire
+
+  - trigger: "ISO13>"
+    replace: |-
+      anyad evāhuḥ sambhavād anyad āhur asambhavāt
+      iti śuśruma dhīrāṇāṁ ye nas tad vicacakṣire
+
+  - trigger: "ISO13<"
+    replace: |-
+      anyad evähuù sambhaväd anyad ähur asambhavät
+      iti çuçruma dhéräëäà ye nas tad vicacakñire
+
+  - trigger: "ISO13T:"
+    replace: |-
+      It is said that one result is obtained by worshiping the supreme cause of all causes and that another result is obtained by worshiping what is not supreme. All this is heard from the undisturbed authorities, who clearly explained it.
+
+  - trigger: "ISO13T>"
+    replace: |-
+      It is said that one result is obtained by worshiping the supreme cause of all causes and that another result is obtained by worshiping what is not supreme. All this is heard from the undisturbed authorities, who clearly explained it.
+
+  - trigger: "ISO13T<"
+    replace: |-
+      It is said that one result is obtained by worshiping the supreme cause of all causes and that another result is obtained by worshiping what is not supreme. All this is heard from the undisturbed authorities, who clearly explained it.
+
+  - trigger: "ISO14:"
+    replace: |-
+      sambhutim ca vinasam ca yas tad vedobhayam saha
+      vinasena mrtyum tirtva sambhutyamrtam asnute
+
+  - trigger: "ISO14>"
+    replace: |-
+      sambhūtiṁ ca vināśaṁ ca yas tad vedobhayaḿ saha
+      vināśena mṛtyuṁ tīrtvā sambhūtyāmṛtam aśnute
+
+  - trigger: "ISO14<"
+    replace: |-
+      sambhütià ca vinäçaà ca yas tad vedobhayaà saha
+      vinäçena måtyuà tértvä sambhütyämåtam açnute
+
+  - trigger: "ISO14T:"
+    replace: |-
+      One should know perfectly the Personality of Godhead Sri Krsna and His transcendental name, form, qualities and pastimes, as well as the temporary material creation with its temporary demigods, men and animals. When one knows these, he surpasses death and the ephemeral cosmic manifestation with it, and in the eternal kingdom of God he enjoys his eternal life of bliss and knowledge.
+
+  - trigger: "ISO14T>"
+    replace: |-
+      One should know perfectly the Personality of Godhead Śrī Kṛṣṇa and His transcendental name, form, qualities and pastimes, as well as the temporary material creation with its temporary demigods, men and animals. When one knows these, he surpasses death and the ephemeral cosmic manifestation with it, and in the eternal kingdom of God he enjoys his eternal life of bliss and knowledge.
+
+  - trigger: "ISO14T<"
+    replace: |-
+      One should know perfectly the Personality of Godhead Çré Kåñëa and His transcendental name, form, qualities and pastimes, as well as the temporary material creation with its temporary demigods, men and animals. When one knows these, he surpasses death and the ephemeral cosmic manifestation with it, and in the eternal kingdom of God he enjoys his eternal life of bliss and knowledge.
+
+  - trigger: "ISO15:"
+    replace: |-
+      hiranmayena patrena satyasyapihitam mukham
+      tat tvam pusann apavrnu satya-dharmaya drstaye
+
+  - trigger: "ISO15>"
+    replace: |-
+      hiraṇmayena pātreṇa satyasyāpihitaṁ mukham
+      tat tvaṁ pūṣann apāvṛṇu satya-dharmāya dṛṣṭaye
+
+  - trigger: "ISO15<"
+    replace: |-
+      hiraëmayena pätreëa satyasyäpihitaà mukham
+      tat tvaà püñann apävåëu satya-dharmäya dåñöaye
+
+  - trigger: "ISO15T:"
+    replace: |-
+      O my Lord, sustainer of all that lives, Your real face is covered by Your dazzling effulgence. Kindly remove that covering and exhibit Yourself to Your pure devotee.
+
+  - trigger: "ISO15T>"
+    replace: |-
+      O my Lord, sustainer of all that lives, Your real face is covered by Your dazzling effulgence. Kindly remove that covering and exhibit Yourself to Your pure devotee.
+
+  - trigger: "ISO15T<"
+    replace: |-
+      O my Lord, sustainer of all that lives, Your real face is covered by Your dazzling effulgence. Kindly remove that covering and exhibit Yourself to Your pure devotee.
+
+  - trigger: "ISO16:"
+    replace: |-
+      pusann ekarse yama surya prajapatya
+      vyuha rasmin samuha tejo
+      yat te rupam kalyana-tamam tat te pasyami
+      yo ’sav asau purusah so ’ham asmi
+
+  - trigger: "ISO16>"
+    replace: |-
+      pūṣann ekarṣe yama sūrya prājāpatya
+      vyūha raśmīn samūha tejo
+      yat te rūpaṁ kalyāṇa-tamaṁ tat te paśyāmi
+      yo ’sāv asau puruṣaḥ so ’ham asmi
+
+  - trigger: "ISO16<"
+    replace: |-
+      püñann ekarñe yama sürya präjäpatya
+      vyüha raçmén samüha tejo
+      yat te rüpaà kalyäëa-tamaà tat te paçyämi
+      yo ’säv asau puruñaù so ’ham asmi
+
+  - trigger: "ISO16T:"
+    replace: |-
+      O my Lord, O primeval philosopher, maintainer of the universe, O regulating principle, destination of the pure devotees, well-wisher of the progenitors of mankind, please remove the effulgence of Your transcendental rays so that I can see Your form of bliss. You are the eternal Supreme Personality of Godhead, like unto the sun, as am I.
+
+  - trigger: "ISO16T>"
+    replace: |-
+      O my Lord, O primeval philosopher, maintainer of the universe, O regulating principle, destination of the pure devotees, well-wisher of the progenitors of mankind, please remove the effulgence of Your transcendental rays so that I can see Your form of bliss. You are the eternal Supreme Personality of Godhead, like unto the sun, as am I.
+
+  - trigger: "ISO16T<"
+    replace: |-
+      O my Lord, O primeval philosopher, maintainer of the universe, O regulating principle, destination of the pure devotees, well-wisher of the progenitors of mankind, please remove the effulgence of Your transcendental rays so that I can see Your form of bliss. You are the eternal Supreme Personality of Godhead, like unto the sun, as am I.
+
+  - trigger: "ISO17:"
+    replace: |-
+      vayur anilam amrtam athedam bhasmantam sariram
+      om krato smara krtam smara krato smara krtam smara
+
+  - trigger: "ISO17>"
+    replace: |-
+      vāyur anilam amṛtam athedaṁ bhasmāntaṁ śarīram
+      oṁ krato smara kṛtaṁ smara krato smara kṛtaṁ smara
+
+  - trigger: "ISO17<"
+    replace: |-
+      väyur anilam amåtam athedaà bhasmäntaà çaréram
+      oà krato smara kåtaà smara krato smara kåtaà smara
+
+  - trigger: "ISO17T:"
+    replace: |-
+      Let this temporary body be burnt to ashes, and let the air of life be merged with the totality of air. Now, O my Lord, please remember all my sacrifices, and because You are the ultimate beneficiary, please remember all that I have done for You.
+
+  - trigger: "ISO17T>"
+    replace: |-
+      Let this temporary body be burnt to ashes, and let the air of life be merged with the totality of air. Now, O my Lord, please remember all my sacrifices, and because You are the ultimate beneficiary, please remember all that I have done for You.
+
+  - trigger: "ISO17T<"
+    replace: |-
+      Let this temporary body be burnt to ashes, and let the air of life be merged with the totality of air. Now, O my Lord, please remember all my sacrifices, and because You are the ultimate beneficiary, please remember all that I have done for You.
+
+  - trigger: "ISO18:"
+    replace: |-
+      agne naya supatha raye asman
+      visvani deva vayunani vidvan
+      yuyodhy asmaj juhuranam eno
+      bhuyistham te nama-uktim vidhema
+
+  - trigger: "ISO18>"
+    replace: |-
+      agne naya supathā rāye asmān
+      viśvāni deva vayunāni vidvān
+      yuyodhy asmaj juhurāṇam eno
+      bhūyiṣṭhāṁ te nama-uktiṁ vidhema
+
+  - trigger: "ISO18<"
+    replace: |-
+      agne naya supathä räye asmän
+      viçväni deva vayunäni vidvän
+      yuyodhy asmaj juhuräëam eno
+      bhüyiñöhäà te nama-uktià vidhema
+
+  - trigger: "ISO18T:"
+    replace: |-
+      O my Lord, as powerful as fire, O omnipotent one, now I offer You all obeisances, falling on the ground at Your feet. O my Lord, please lead me on the right path to reach You, and since You know all that I have done in the past, please free me from the reactions to my past sins so that there will be no hindrance to my progress.
+
+  - trigger: "ISO18T>"
+    replace: |-
+      O my Lord, as powerful as fire, O omnipotent one, now I offer You all obeisances, falling on the ground at Your feet. O my Lord, please lead me on the right path to reach You, and since You know all that I have done in the past, please free me from the reactions to my past sins so that there will be no hindrance to my progress.
+
+  - trigger: "ISO18T<"
+    replace: |-
+      O my Lord, as powerful as fire, O omnipotent one, now I offer You all obeisances, falling on the ground at Your feet. O my Lord, please lead me on the right path to reach You, and since You know all that I have done in the past, please free me from the reactions to my past sins so that there will be no hindrance to my progress.
